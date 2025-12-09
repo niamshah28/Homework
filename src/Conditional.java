@@ -6,7 +6,7 @@ public class Conditional {
 
     public Conditional(){
     String Question;
-    Question = "IsGabeCool?";
+    Question = "Will Gideon get a GF?";
     int randomInt;
     randomInt = (int)(Math.random() * 10);
 
@@ -16,13 +16,13 @@ public class Conditional {
         if (randomInt ==0){
             System.out.println("Very doubtful");
         }
-        if (randomInt == 1-5){
+        if (randomInt>=1 && randomInt <=5){
             System.out.println("Better not tell you now");
         }
-        if (randomInt == 7-8){
+        if (randomInt>=6 && randomInt <=8){
             System.out.println("As I see it, yes");
         }
-        if(randomInt == 9-10){
+        if(randomInt>=9 && randomInt <=10){
             System.out.println("Without a doubt");
         }
 
