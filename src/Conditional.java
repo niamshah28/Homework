@@ -6,7 +6,7 @@ public class Conditional {
 
     public Conditional(){
     String Question;
-    Question = "Will Gideon get a GF?";
+    Question = "Will Niam get a new get a GF?";
     int randomInt;
     randomInt = (int)(Math.random() * 10);
 
@@ -14,16 +14,16 @@ public class Conditional {
         System.out.println();
         System.out.println(randomInt);
         if (randomInt ==0){
-            System.out.println("Very doubtful");
+            System.out.println("NO WAY!!!!");
         }
         if (randomInt>=1 && randomInt <=5){
-            System.out.println("Better not tell you now");
+            System.out.println("There's no reason to give up hope");
         }
         if (randomInt>=6 && randomInt <=8){
-            System.out.println("As I see it, yes");
+            System.out.println("perchance");
         }
         if(randomInt>=9 && randomInt <=10){
-            System.out.println("Without a doubt");
+            System.out.println("definitely");
         }
 
     }//constructor method
